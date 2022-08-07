@@ -6,7 +6,7 @@ logging.basicConfig(level=logging.INFO)
 __location__ = os.path.realpath(
     os.path.join(os.getcwd(), os.path.dirname(__file__)))
 
-VIDEO_LOCATION = os.getenv('VIDEO_LOCATION', '07-08')
+VIDEO_LOCATION = os.getenv('VIDEO_LOCATION')
 EXPORT_LOCATION = os.getenv('EXPORT_LOCATION', 'youtube_video.mp4')
 
 clips = []
