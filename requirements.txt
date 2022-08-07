@@ -1,0 +1,4 @@
+moviepy==1.0.3
+selenium==4.3.0
+pytube3==9.6.4
+pytube==12.1.0
